@@ -97,6 +97,6 @@ function groupAnimals(animals) {
 console.log(groupAnimals(["cacing", "ayam", "kuda", "anoa", "kancil"]));
 // [ ['ayam', 'anoa'], ['cacing'], ['kuda', 'kancil'] ]
 console.log(
-  groupAnimals(["ayam", "kuda", "anoa", "kancil", "unta", "cicak", "cacing"])
+  groupAnimals(["kuda", "kancil", "unta", "cicak", "cacing", "ayam", "anoa"])
 );
 // [ ['ayam', 'anoa'], ['cacing', 'cicak'], ['kuda', 'kancil'], ['unta'] ]
